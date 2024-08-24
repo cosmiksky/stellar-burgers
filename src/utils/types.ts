@@ -3,7 +3,7 @@ import { SerializedError } from '@reduxjs/toolkit';
 export type TIngredient = {
   _id: string;
   name: string;
-  type: string;
+  type: IngredientType;
   proteins: number;
   fat: number;
   carbohydrates: number;
